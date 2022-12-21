@@ -1,0 +1,39 @@
+/* CSS MEDIA QUERIES */
+
+@media screen and (max-width: 670px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .areaOne {
+    width: 239px !important;
+    height: auto !important;
+  }
+
+  .boxOne {
+    width: 239px !important;
+
+    border-radius: 0 0 0 0 !important;
+  }
+  .boxTwo {
+    width: 239px !important;
+
+    border-radius: 0 0 10px 10px !important;
+  }
+
+  .areaTwo {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+  }
+}
